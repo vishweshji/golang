@@ -21,7 +21,7 @@ import (
 )
 
 func main() {
-	for i := 0; i < 10; i++ {
+	for i := 1; i <= 10; i++ {
 		fmt.Printf("%s\n", strings.Repeat("0", i))
 	}
 }
