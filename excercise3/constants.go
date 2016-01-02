@@ -20,6 +20,7 @@ func main() {
 	fmt.Println(typedHello)
 
 	// Multiply two literal constants into a typed variable
+	// Calcualte how many seconds in an hour (60 minutes)
 	seconds := 60 * 60
 	// Display the value of those variables.
 	fmt.Println(seconds)
