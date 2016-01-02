@@ -3,12 +3,8 @@
 // Write a program that converts from Fahrenheit into Celsius. (C = (F - 32) * 5/9)
 //
 
-package main
+package conversion
 
-import "fmt"
-
-func main() {
-	fahrenheit := 95
-	celsius := (fahrenheit - 32) * 5 / 9
-	fmt.Println(celsius)
+func Convert_FtoC(fahrenheit int) int {
+	return (fahrenheit - 32) * 5 / 9
 }
